@@ -1,0 +1,19 @@
+site_name: Cocolle
+theme:
+  name: 'material'
+  feature:
+    tabs: true
+  palette:
+    primary: 'Teal'
+    accent: 'Red'
+extra:
+  search:
+    language: 'en, ja'
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - toc:
+      permalink: true
+  - footnotes
